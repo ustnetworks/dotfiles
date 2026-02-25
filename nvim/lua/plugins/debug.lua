@@ -70,7 +70,7 @@ function M.create_frappe_launch_json()
     "configurations": [
         {
                 "name": "Bench",
-                "type": "python",
+                "type": "debugpy",
                 "request": "launch",
                 "justMyCode": false,
                 "console":"integratedTerminal",
