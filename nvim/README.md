@@ -22,7 +22,7 @@ sudo chmod +x tree-sitter
 ```
 Run ```which tree-sitter``` and replace existing one
 ```bash
-mv tree-sitter path/to/existing/tree-sitter
+mv tree-sitter-linux-x64 $(which tree-sitter)
 ```
 check version if suitable
 
