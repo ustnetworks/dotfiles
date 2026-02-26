@@ -6,7 +6,7 @@ python = "../../../version-13/env"
 extra-paths = ["../frappe"]
 ```
 **tree-sitter issues** 
-The error "tree-sitter version GLIBC_2.39' not found" occurs when the **tree-sitter` binary** you are trying to run was compiled against a newer version of GLIBC so i download tree-sitter 24.0
+The error "tree-sitter version GLIBC_2.39' not found" occurs when the **tree-sitter` binary** you are trying to run was compiled against a newer version of GLIBC so i download tree-sitter *24.0*
 
 Remove current version of tree-sitter
 ```
